@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.job-item-details-bg-container {
+  padding: 30px;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.job-item-details-container {
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #272727;
+  padding: 20px;
+}
+
+.job-details-location-emp-type-package-container {
+  display: flex;
+}
+
+.location-emp-type-container {
+  display: flex;
+}
+
+.job-details-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  display: flex;
+}
+
+.job-details-company-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.job-item-logo-title-container,
+.similar-logo-title-container {
+  display: flex;
+}
+
+.job-details-location-emp-type-package-container,
+.similar-job-location-emp-type-package-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+
+.job-details-description-container {
+  color: white;
+}
+
+.skill-img {
+  height: 40px;
+  width: 40px;
+}
+
+.skill-name {
+  color: white;
+}
+
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+}
+
+.job-details-heading {
+  color: white;
+  font-family: 'Roboto';
+  margin: 15px 0px;
+  font-size: 18px;
+}
+
+.job-details-icons {
+  margin-right: 5px;
+}
+
+.job-details-rating-star {
+  color: #fbbf24;
+}
+
+.job-details-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+}
+
+.life-at-company-description {
+  color: white;
+}
+
+.life-at-company-description-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-at-company-img {
+  border-radius: 10px;
+}
+
+.life-at-company-description {
+  width: 60%;
+  line-height: 1.5;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.description-visit-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visit-btn {
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.visit-icon {
+  margin-left: 5px;
+}
+
+.similar-jobs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-similar-job-container {
+  background-color: #272727;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 15px;
+  width: 250px;
+}
+
+.similar-job-title {
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.similar-job-title-rating-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.company-website-url-link {
+  text-decoration: none;
+  color: #6366f1;
+}
